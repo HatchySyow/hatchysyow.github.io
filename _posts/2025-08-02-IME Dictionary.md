@@ -18,8 +18,9 @@ File>Openなどで、別の場所のファイルを開くことはできるが�
 例えば、OneDrive上に辞書を置いて、そのpathを指定することで、複数のWindows OSで同じ辞書を使用、編集することが可能になる。
 マジで便利機能かもしれない。
 
-コマンド
-```%SystemRoot%\System32\IME\IMEJP\imjpuexc.exe setcustomdictpath "新しいユーザー辞書の場所\imjp15cu.dic"```
+```bash
+%SystemRoot%\System32\IME\IMEJP\imjpuexc.exe setcustomdictpath "新しいユーザー辞書の場所\imjp15cu.dic"
+```
 
 ただし、辞書の名前を「imjp15cu.dic」にしているので、ここと、新しい辞書の場所については、ご自身で設定を確認の上、値を入れてほしい。
 
