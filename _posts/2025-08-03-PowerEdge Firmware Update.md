@@ -19,6 +19,8 @@ Firmware更新ツールについては、複数の方法があり、下の記事
 
 [PowerEdge: ファームウェア更新ツールのご紹介 | Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000240818/)
 
+![alt text](assets/images/ka06P0000009DzdQAE_ja_1.png)
+
 今回はその中でも、Dell System Update（DSU）に焦点をあてて、紹介していきます。
 
 ## DSU、という選択肢
