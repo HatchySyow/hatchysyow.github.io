@@ -1,6 +1,6 @@
 ---
 title: "Dell PowerEdge Server"
-date: Now
+date: 
 tags: [PowerEdge, x86 Server, Firmware, Driver, BIOS,]
 pin: false
 ---
