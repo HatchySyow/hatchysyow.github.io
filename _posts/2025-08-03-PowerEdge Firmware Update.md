@@ -1,5 +1,5 @@
 ---
-title: "Dell PowerEdge Server"
+title: "Dell System Updateについて"
 date: 2025-08-03 00:33:00 +0900
 tags: [PowerEdge, x86 Server, Firmware, Driver, BIOS,]
 pin: false
