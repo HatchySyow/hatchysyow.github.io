@@ -1,4 +1,4 @@
-# HatchySyow's Blog
+# PowerEdge Runners
 
 HatchySyowが運営する個人の技術ブログのソースコードです。
 日々の学習記録や、技術的な備忘録をまとめています。
