@@ -23,7 +23,7 @@ pin: false
 Geminiに書かせたコードが以下のもの。多分、使えるはず。\
 Stylusを開いて、Edit Styleを選択し、URLs on the Domain を設定して、下記コードを入力し、左側メニューのSaveを押下。
 
-```CSS
+```bash
   /*
    * Google Search Centered (Re-Revised)
    * Googleの検索結果を中央に表示します（再修正版）
