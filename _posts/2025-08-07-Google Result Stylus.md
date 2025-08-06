@@ -24,7 +24,7 @@ Geminiに書かせたコードが以下のもの。多分、使えるはず。\
 Stylusを開いて、Edit Styleを選択し、URLs on the Domain を設定して、下記コードを入力し、左側メニューのSaveを押下。
 
 ```bash
-  #main {
+  main {
     /* コンテンツ全体の最大幅を設定します。この数値を変更すると幅を調整できます。*/
     max-width: 1500px !important;
 
@@ -36,5 +36,7 @@ Stylusを開いて、Edit Styleを選択し、URLs on the Domain を設定して
 ## まとめ
 多分、うまくいけばページが少し右側に寄っているはず。
 max-widthのピクセル数を変更すれば、表示幅とともに、どこまで右側に寄せるかをある程度調整可能。
+
+![alt text](assets/images/{2395D935-582E-4A81-8FBF-2422122AA401}.png)
 
 役に立つといいなぁ。
