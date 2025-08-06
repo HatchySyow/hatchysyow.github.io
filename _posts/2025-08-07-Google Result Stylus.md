@@ -1,6 +1,6 @@
 ---
 title: "Googleの検索結果を中央に寄せる方法"
-date: 2025-08-07 00:00:00 +0900
+date: 2025-08-06 00:00:00 +0900
 tags: [Google, Google Chrome, 拡張機能, Stylus, CSS,]
 pin: false
 ---
