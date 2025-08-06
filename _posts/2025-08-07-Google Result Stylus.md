@@ -9,6 +9,8 @@ pin: false
 普通にGoogle検索をすると、検索結果がページの左側に寄ってしまって、見づらいことがある。
 これを(もう少しでもいいから)中央に寄せたい。
 
+![alt text](../assets/images/{2395D935-582E-4A81-8FBF-2422122AA401}.png)
+
 ## Sytlusという選択肢
 [Chrome ウェブストア](https://chromewebstore.google.com/)に、「Stylus」という拡張機能がある。
 一言でいえば、ページのCSSを一部変更することができる拡張機能。
