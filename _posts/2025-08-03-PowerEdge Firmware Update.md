@@ -44,7 +44,7 @@ Dell Technologiesからは、PowerEdgeサーバー向けに、Dell System Update
 PS C:\Windows\system32> DSU
 ```
 
-[DSU: Windows Serverオペレーティング システムでDELL EMC System Update(DSU)を使用してドライバーとファームウェアをインストールする方法 | Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000116751/)
+[DSU: Windows Serverオペレーティング システムでDELL EMC System Update(DSU)を使用してドライバーとファームウェアをインストールする方法 - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000116751/)
 
 カタログから取得してきた情報一覧が表示されるので、そこから、どのFirmware、Driverを更新したいか、を選択し、`C+Enter`を押下することで、インストールできるようになります。
 ※カタログのすべてのFirmware、Driverを更新したい場合は、`a` を押下します。
