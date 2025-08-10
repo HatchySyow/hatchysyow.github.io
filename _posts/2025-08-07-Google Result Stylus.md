@@ -27,7 +27,7 @@ Stylusをインストールしたら、Googleの検索結果を中央に寄せ�
 Stylusを開いて、Edit Styleを選択し、URLs on the Domain を設定して、下記コードを入力し、左側メニューのSaveを押下します。
 
 ```bash
-  main {
+  #main {
     /* コンテンツ全体の最大幅を設定します。この数値を変更すると幅を調整できます。*/
     max-width: 1500px !important;
 
