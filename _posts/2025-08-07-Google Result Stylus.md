@@ -22,8 +22,9 @@ pin: false
 とりあえず入れてみる。
 
 ## 設定
-Geminiに書かせたコードが以下のもの。多分、使えるはず。\
-Stylusを開いて、Edit Styleを選択し、URLs on the Domain を設定して、下記コードを入力し、左側メニューのSaveを押下。
+Geminiに書かせたコードが以下のものです。\
+Stylusをインストールしたら、Googleの検索結果を中央に寄せるための設定を行います。
+Stylusを開いて、Edit Styleを選択し、URLs on the Domain を設定して、下記コードを入力し、左側メニューのSaveを押下します。
 
 ```bash
   main {
@@ -36,9 +37,9 @@ Stylusを開いて、Edit Styleを選択し、URLs on the Domain を設定して
 ```
 
 ## まとめ
-多分、うまくいけばページが少し右側に寄っているはず。
-max-widthのピクセル数を変更すれば、表示幅とともに、どこまで右側に寄せるかをある程度調整可能。
+Stylusを使うことで、Googleの検索結果を中央に寄せることができました。\
+max-widthのピクセル数を変更すれば、表示幅とともに、どこまで右側に寄せるかをある程度調整可能です。
 
 ![alt text](assets/images/{2395D935-582E-4A81-8FBF-2422122AA401}.png)
 
-役に立つといいなぁ。
+この設定が少しでも皆様のGoogle検索を快適にする手助けになれば幸いです。
