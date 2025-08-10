@@ -59,6 +59,135 @@ PS C:\Windows\system32> DSU
 カタログから取得してきた情報一覧が表示されるので、そこから、どのFirmware、Driverを更新したいか、を選択し、`C+Enter`を押下することで、インストールできるようになります。
 ※カタログのすべてのFirmware、Driverを更新したい場合は、`a` を押下します。
 
+<details>
+<summary>実際の実行結果</summary>
+
+```shell
+PS C:\Users\Administrator> dsu
+DELL System Update 2.1.1.0
+Copyright (C) 2014 -- 2024 DELL Proprietary.
+Downloading the Index catalog
+Extracting C:\ProgramData\Dell\DELL System Update\dell_dup\CatalogIndex.cab
+Reading the Index catalog
+Downloading the catalog
+Extracting C:\ProgramData\Dell\DELL System Update\dell_dup\Catalog.cab
+Reading the catalog ...
+Verifying inventory collector installation
+Getting System Inventory ...
+Determining Applicable Updates ...
+
+|------------DELL System Update-----------|
+[ ] represents 'not selected'
+[*] represents 'selected'
+[-] represents 'Component already at repository version (can be selected only if /e option is used)'
+Choose:  q - Quit without update, c to Commit, <number> - To Select/Deselect, a - Select All, n - Select None
+[-]1 BIOS
+Current Version : 2.19.0 Same as : 2.19.0, Criticality : Urgent, Type : BIOS
+
+[-]2 Firmware for  - Disk 0 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : DK05 Same as : DK05, Criticality : Recommended, Type : Firmware
+
+[-]3 Firmware for  - Disk 1 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : DK05 Same as : DK05, Criticality : Recommended, Type : Firmware
+
+[ ]4 Firmware for  - Disk 2 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : LS08 Upgrade to : LS0C, Criticality : Recommended, Type : Firmware
+
+[ ]5 Firmware for  - Disk 3 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : LS08 Upgrade to : LS0C, Criticality : Recommended, Type : Firmware
+
+[ ]6 Firmware for  - Disk 4 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : LS08 Upgrade to : LS0C, Criticality : Recommended, Type : Firmware
+
+[ ]7 Firmware for  - Disk 5 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : LS08 Upgrade to : LS0C, Criticality : Recommended, Type : Firmware
+
+[ ]8 Firmware for  - Disk 6 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : DE09 Upgrade to : DE11, Criticality : Recommended, Type : Firmware
+
+[-]9 PERC H730 Adapter Controller 0 Firmware
+Current Version : 25.5.9.0001 Same as : 25.5.9.0001, Criticality : Recommended, Type : Firmware
+
+[-]10 Dell OS Driver Pack, 18.11.00, A00
+Current Version : 18.11.00 Same as : 18.11.00, Criticality : Optional, Type : Application
+
+[-]11 Integrated Dell Remote Access Controller
+Current Version : 2.86.86.86 Same as : 2.86.86.86, Criticality : Recommended, Type : Firmware
+
+[-]12 OS COLLECTOR, v6.0, A00
+Current Version : 6.0 Same as : 6.0, Criticality : Recommended, Type : Application
+
+[-]13 [0001] Broadcom NetXtreme Gigabit Ethernet
+Current Version : 22.00.6 Same as : 22.00.6, Criticality : Optional, Type : Firmware
+
+[-]14 [0002] Broadcom NetXtreme Gigabit Ethernet #2
+Current Version : 22.00.6 Same as : 22.00.6, Criticality : Optional, Type : Firmware
+
+Enter your choice : a
+
+|------------DELL System Update-----------|
+[ ] represents 'not selected'
+[*] represents 'selected'
+[-] represents 'Component already at repository version (can be selected only if /e option is used)'
+Choose:  q - Quit without update, c to Commit, <number> - To Select/Deselect, a - Select All, n - Select None
+[-]1 BIOS
+Current Version : 2.19.0 Same as : 2.19.0, Criticality : Urgent, Type : BIOS
+
+[-]2 Firmware for  - Disk 0 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : DK05 Same as : DK05, Criticality : Recommended, Type : Firmware
+
+[-]3 Firmware for  - Disk 1 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : DK05 Same as : DK05, Criticality : Recommended, Type : Firmware
+
+[*]4 Firmware for  - Disk 2 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : LS08 Upgrade to : LS0C, Criticality : Recommended, Type : Firmware
+
+[*]5 Firmware for  - Disk 3 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : LS08 Upgrade to : LS0C, Criticality : Recommended, Type : Firmware
+
+[*]6 Firmware for  - Disk 4 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : LS08 Upgrade to : LS0C, Criticality : Recommended, Type : Firmware
+
+[*]7 Firmware for  - Disk 5 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : LS08 Upgrade to : LS0C, Criticality : Recommended, Type : Firmware
+
+[*]8 Firmware for  - Disk 6 in Backplane 1 of PERC H730 Adapter Controller 0 in Slot 3
+Current Version : DE09 Upgrade to : DE11, Criticality : Recommended, Type : Firmware
+
+[-]9 PERC H730 Adapter Controller 0 Firmware
+Current Version : 25.5.9.0001 Same as : 25.5.9.0001, Criticality : Recommended, Type : Firmware
+
+[-]10 Dell OS Driver Pack, 18.11.00, A00
+Current Version : 18.11.00 Same as : 18.11.00, Criticality : Optional, Type : Application
+
+[-]11 Integrated Dell Remote Access Controller
+Current Version : 2.86.86.86 Same as : 2.86.86.86, Criticality : Recommended, Type : Firmware
+
+[-]12 OS COLLECTOR, v6.0, A00
+Current Version : 6.0 Same as : 6.0, Criticality : Recommended, Type : Application
+
+[-]13 [0001] Broadcom NetXtreme Gigabit Ethernet
+Current Version : 22.00.6 Same as : 22.00.6, Criticality : Optional, Type : Firmware
+
+[-]14 [0002] Broadcom NetXtreme Gigabit Ethernet #2
+Current Version : 22.00.6 Same as : 22.00.6, Criticality : Optional, Type : Firmware
+
+Enter your choice : c
+Trying to connect using https
+Fetching SAS-Drive_Firmware_8FF65_WN64_LS0C_A00 ...
+Trying to connect using https
+Fetching SAS-Drive_Firmware_MCM30_WN64_DE11_A00 ...
+Installing SAS-Drive_Firmware_8FF65_WN64_LS0C_A00
+Installed successfully
+Installing SAS-Drive_Firmware_MCM30_WN64_DE11_A00
+Installed successfully
+Done! Please run 'dsu --inventory' to check the inventory
+Progress report is available at:C:\ProgramData\Dell\DELL System Update\dell_dup\DSU_STATUS.json
+Exiting DSU!
+```　
+</details>
+
+## まとめ
 DSUを使用することで、Dellのリポジトリから簡単に最新のFirmware、Driverを取得してきて、更新することができます。\
 ぜひ、PowerEdgeをお使いの方は、DSUを使用してFirmware、Driverの更新を行ってみてください。
 
