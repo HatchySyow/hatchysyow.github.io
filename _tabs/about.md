@@ -13,12 +13,11 @@ order: 4
 具体的な製品としては、現在はDell TechnologiesのPowerEdgeシリーズのサポートを行っています。
 PC製品としては、Dell TechnologiesのInspironシリーズやXPSシリーズ、Alienwareシリーズなどのサポートを行っていました。
 
-外部リンクとして、LinkedInのプロフィールを公開しています。[LinkedIn Profile](https://www.linkedin.com/in/shoma8uma/)
-
 ## About Me
 
-Dell Technologiesでテクニカルサポートエンジニアとして、x86サーバー製品（Dell PowerEdge）を担当しています。大学では情報学とコンピュータサイエンスを専攻していました。
-将来的には、AI分野を軸に、オンプレミスとクラウドを組み合わせた最適なインフラを設計できるソリューションアーキテクトになることを目指しています。
+大学では情報学とコンピュータサイエンスを専攻していました。\
+現在は、Dell Technologiesでテクニカルサポートエンジニアとして、x86サーバー製品（Dell PowerEdge）を担当しています。
+将来的には、AI分野を軸に、オンプレミスとクラウドを組み合わせた最適なインフラを設計できるソリューションアーキテクト/ITコンサルタントになることを目指しています。
 
 ## Skills
 
@@ -45,5 +44,5 @@ Dell Technologiesでテクニカルサポートエンジニアとして、x86サ
 
 ## Contact
 
-- **LinkedIn:** https://www.linkedin.com/in/shoma8uma
-- **Credly:** https://www.credly.com/users/shoma-8uma
+- [LinkedIn](https://www.linkedin.com/in/shoma8uma)
+- [Credly](https://www.credly.com/users/shoma-8uma)
