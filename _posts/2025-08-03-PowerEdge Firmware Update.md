@@ -10,6 +10,16 @@ pin: false
 してません、という方も多いかもしれませんし、そもそもなんですかそれ、という方も多いかもしれません。
 
 しかし、Firmwareを日ごろから最新のものに更新しておくことで、突然のHardwareの故障率を下げたり、より良い性能を引き出したりすることができるようになるかもしれません。\
+また、Dell Technologiesなどの各種ベンダーからも、Firmware更新を推奨する情報が出ていたりします。
+
+[PowerEdge:第14世代向けBIOSおよびiDRAC9のアップグレードを推奨 - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000215873/)
+
+[デル・テクノロジーズでは、第15世代PowerEdgeサーバーでBIOSとiDRAC9をアップグレードすることを推奨しています - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000222827/)
+
+ベンダーから推奨されるバージョンに更新しておくことで、サポートを受ける際に、よりスムーズにトラブルシューティングが行えるようになります。
+
+[PowerEdge：最小、推奨、および最新のコード バージョン - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000227230/)
+
 今回は、Dell Technologiesから発売されているx86 Server製品、PowerEdgeのFirmware Updateの方法について、紹介していきます。
 
 ### PowerEdgeでFirmware更新をしたい
