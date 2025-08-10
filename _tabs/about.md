@@ -36,35 +36,32 @@ PC製品としては、Dell TechnologiesのInspironシリーズやXPSシリー�
 
 ## Certifications
 
+### Digital Badges
+* [Credly](https://www.credly.com/users/shoma-8uma)
+* [LinkedIn](https://www.linkedin.com/in/shoma8uma)
+
 ### Microsoft
-* Microsoft Certified: Azure Fundamentals (取得日: 2024/3/16)
-* Microsoft Certified: Azure AI Fundamentals (取得日: 2024/4/2)
+* [Microsoft Certified: Azure Fundamentals](https://learn.microsoft.com/ja-jp/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification) (取得日: 2024/3/16)
+* [Microsoft Certified: Azure AI Fundamentals](https://learn.microsoft.com/ja-jp/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification) (取得日: 2024/4/2)
 
 ### Amazon Web Service (AWS)
-* AWS Certified Cloud Practitioner (取得日: 2024/4/23)
-* AWS Certified AI Practitioner (取得日: 2024/11/22)
+* [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) (取得日: 2024/4/23)
+* [AWS Certified AI Practitioner](https://aws.amazon.com/certification/certified-ai-practitioner/) (取得日: 2024/11/22)
 
 ### CompTIA
-* CompTIA A+ ce Certification (取得日: 2024/3/20)
-* CompTIA Network+ (取得日: 2024/8/9)
-* CompTIA IT Operations Specialist (取得日: 2024/8/9)
+* [CompTIA A+ ce Certification](https://www.comptia.org/certifications/a) (取得日: 2024/3/20)
+* [CompTIA Network+](https://www.comptia.org/certifications/network) (取得日: 2024/8/9)
+* [CompTIA IT Operations Specialist](https://development-comptiawebsite.azurewebsites.net/certifications/which-certification/stackable-certifications) (取得日: 2024/8/9)
 
 ### Dell Technologies
-* Dell GenAI Foundations (取得日: 2024/5/3)
-* Dell Security Foundations 2024 (取得日: 2024/5/8)
-* Dell Client Systems Support and Troubleshooting Achievement (取得日: 2024/10/1)
-* Dell Client Systems Deployment and Implementation Achievement (取得日: 2024/10/2)
-* Dell PowerEdge Foundations 2023 (取得日: 2024/10/19)
-* Dell Integrated System for Microsoft Azure Stack HCI Achievement (取得日: 2025/2/7)
-
-### PeopleCert
-* ITIL® Foundation Certificate in IT Service Management (取得日: 2025/3/25)
+* [Dell GenAI Foundations](https://learning.dell.com/content/dell/ja-jp/home/certification-overview/available-exams/gen-ai-foundations.html) (取得日: 2024/5/3)
+* [Dell Security Foundations 2024](https://learning.dell.com/content/dell/ja-jp/home/certification-overview/available-exams/security-foundations.html) (取得日: 2024/5/8)
+* [Dell Client Systems Support and Troubleshooting Achievement](https://learning.dell.com/content/dell/ja-jp/home/certification-overview/available-exams/dell-client-systems-support-and-troubleshooting-.html) (取得日: 2024/10/1)
+* [Dell Client Systems Deployment and Implementation Achievement](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams/dell-client-systems-deployment-and-implementation-achievement.html) (取得日: 2024/10/2)
+* [Dell PowerEdge Foundations 2023](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams/poweredge-foundations-v2.html) (取得日: 2024/10/19)
+* [Dell Integrated System for Microsoft Azure Stack HCI Achievement](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams/dell-integrated-system-for-microsoft-azure-stack-hci.html) (取得日: 2025/2/7)
 
 ### その他
-* ITパスポート試験 (取得日: 2019/8/XX)
-* JDLA Deep Learning for GENERAL 2021 #2 (取得日: 2021/10/29)
-
-## Contact
-
-- [LinkedIn](https://www.linkedin.com/in/shoma8uma)
-- [Credly](https://www.credly.com/users/shoma-8uma)
+* [ITパスポート試験](https://www.ipa.go.jp/shiken/kubun/ip.html) (取得日: 2019/8/XX)
+* [JDLA Deep Learning for GENERAL 2021 #2](https://www.jdla.org/certificate/general/) (取得日: 2021/10/29)
+* [ITIL® Foundation Certificate in IT Service Management](https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-foundation-2565) (取得日: 2025/3/25)
