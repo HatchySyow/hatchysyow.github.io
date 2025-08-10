@@ -123,7 +123,7 @@ Current Version : 22.00.6 Same as : 22.00.6, Criticality : Optional, Type : Firm
 [-]14 [0002] Broadcom NetXtreme Gigabit Ethernet #2
 Current Version : 22.00.6 Same as : 22.00.6, Criticality : Optional, Type : Firmware
 
-Enter your choice : a
+Enter your choice : a #ここで、aを押下すると、すべてのFirmware、Driverが選択される。aを選択している。
 
 |------------DELL System Update-----------|
 [ ] represents 'not selected'
@@ -172,7 +172,7 @@ Current Version : 22.00.6 Same as : 22.00.6, Criticality : Optional, Type : Firm
 [-]14 [0002] Broadcom NetXtreme Gigabit Ethernet #2
 Current Version : 22.00.6 Same as : 22.00.6, Criticality : Optional, Type : Firmware
 
-Enter your choice : c
+Enter your choice : c #cを押下して、Enterで更新を実行する。
 Trying to connect using https
 Fetching SAS-Drive_Firmware_8FF65_WN64_LS0C_A00 ...
 Trying to connect using https
@@ -184,7 +184,7 @@ Installed successfully
 Done! Please run 'dsu --inventory' to check the inventory
 Progress report is available at:C:\ProgramData\Dell\DELL System Update\dell_dup\DSU_STATUS.json
 Exiting DSU!
-```　
+```
 </details>
 
 ## まとめ
@@ -199,3 +199,107 @@ DSUを使用することで、Dellのリポジトリから簡単に最新のFirm
 SUUはISOイメージから更新を行うため、イメージさえあればインターネット接続がない状態でも、更新を行うことができます。
 
 以上になります。また、気分が乗ったら、SUUとか他のツールについても書いていこうと思います。
+
+### おまけ
+実行環境は以下。今回のDSUの実行は、Windows Server 2025上で行いました。\
+DSU実行によって、Firmwareのバージョンが更新されました。
+
+<details>
+<summary>検証環境サーバースペック (Dell PowerEdge T430)</summary>
+
+---
+
+#### 1. サーバー概要
+- **モデル:** Dell Inc. PowerEdge T430
+- **BIOSバージョン:** 2.19.0
+- **リモート管理 (iDRAC):** iDRAC8 Enterprise, ファームウェアバージョン 2.86.86.86
+
+---
+
+#### 2. CPU
+- **モデル:** Intel(R) Xeon(R) CPU E5-2623 v4 @ 2.60GHz
+- **搭載数:** 1基
+- **コア/スレッド:** 4コア / 8スレッド
+
+---
+
+#### 3. メモリ
+- **合計容量:** 40 GB
+- **構成:** 8GB DDR4 DIMM x 5枚
+
+---
+
+#### 4. ストレージ
+
+- **RAIDコントローラー:**
+    - **モデル:** PERC H730 Adapter
+    - **ファームウェア:** 25.5.9.0001
+    - **キャッシュ:** 1024 MB
+
+- **仮想ディスク構成:**
+    - **仮想ディスク "ESXi" (RAID 1):**
+        - **容量:** 約599 GB
+        - **構成物理ディスク:** ディスク 0, 1
+    - **仮想ディスク "WinServer202x" (RAID 0):**
+        - **容量:** 約598 GB
+        - **構成物理ディスク:** ディスク 2, 3
+    - **仮想ディスク "Nutanix-Data" (RAID 5):**
+        - **容量:** 約598 GB
+        - **構成物理ディスク:** ディスク 4, 5, 6
+
+- **物理ディスク詳細:**
+    - **ディスク 0 (Bay 0):**
+        - **メーカー/モデル:** TOSHIBA AL13SXB60EN
+        - **容量/種類:** 約600 GB / HDD (SAS)
+        - **ファームウェア:** DK05
+        - **所属RAID:** RAID 1 ("ESXi")
+    - **ディスク 1 (Bay 1):**
+        - **メーカー/モデル:** TOSHIBA AL13SXB60EN
+        - **容量/種類:** 約600 GB / HDD (SAS)
+        - **ファームウェア:** DK05
+        - **所属RAID:** RAID 1 ("ESXi")
+    - **ディスク 2 (Bay 2):**
+        - **メーカー/モデル:** SEAGATE ST300MM0006
+        - **容量/種類:** 約300 GB / HDD (SAS)
+        - **ファームウェア:** LS08
+        - **所属RAID:** RAID 0 ("WinServer202x")
+    - **ディスク 3 (Bay 3):**
+        - **メーカー/モデル:** SEAGATE ST300MM0006
+        - **容量/種類:** 約300 GB / HDD (SAS)
+        - **ファームウェア:** LS08
+        - **所属RAID:** RAID 0 ("WinServer202x")
+    - **ディスク 4 (Bay 4):**
+        - **メーカー/モデル:** SEAGATE ST300MM0006
+        - **容量/種類:** 約300 GB / HDD (SAS)
+        - **ファームウェア:** LS08
+        - **所属RAID:** RAID 5 ("Nutanix-Data")
+    - **ディスク 5 (Bay 5):**
+        - **メーカー/モデル:** SEAGATE ST300MM0006
+        - **容量/種類:** 約300 GB / HDD (SAS)
+        - **ファームウェア:** LS08
+        - **所属RAID:** RAID 5 ("Nutanix-Data")
+    - **ディスク 6 (Bay 6):**
+        - **メーカー/モデル:** TOSHIBA AL13SEB300
+        - **容量/種類:** 約300 GB / HDD (SAS)
+        - **ファームウェア:** DE09
+        - **所属RAID:** RAID 5 ("Nutanix-Data")
+    - **ディスク 7 (Bay 7):**
+        - **メーカー/モデル:** ATA (Crucial) CT1000BX500SSD1
+        - **容量/種類:** 約1 TB / SSD (SATA)
+        - **ファームウェア:** M6CR061
+        - **所属RAID:** Non-RAID
+
+---
+
+#### 5. ネットワーク
+- **モデル:** Broadcom NetXtreme BCM5720 Gigabit Ethernet
+- **ポート数:** 2ポート
+- **リンク速度:** 1000 Mbps
+
+---
+
+#### 6. 電源ユニット (PSU)
+- **容量:** 495W
+- **構成:** 1台搭載
+
+</details>
