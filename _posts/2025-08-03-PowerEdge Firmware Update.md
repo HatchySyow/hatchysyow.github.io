@@ -59,7 +59,7 @@ PS C:\Windows\system32> DSU
 カタログから取得してきた情報一覧が表示されるので、そこから、どのFirmware、Driverを更新したいか、を選択し、`C+Enter`を押下することで、インストールできるようになります。
 ※カタログのすべてのFirmware、Driverを更新したい場合は、`a` を押下します。
 
-<details>
+<details markdown="1">
 <summary>実際の実行結果</summary>
 
 ```shell
@@ -204,7 +204,7 @@ SUUはISOイメージから更新を行うため、イメージさえあれば�
 実行環境は以下。今回のDSUの実行は、Windows Server 2025上で行いました。\
 DSU実行によって、Firmwareのバージョンが更新されました。
 
-<details>
+<details markdown="1">
 <summary>検証環境サーバースペック (Dell PowerEdge T430)</summary>
 
 ---
