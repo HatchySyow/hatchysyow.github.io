@@ -75,10 +75,7 @@ analytics:
     id: # fill in your Cloudflare Web Analytics token
   fathom:
     id: # fill in your Fathom Site ID
-
-# Favicon
-favicon: \assets\images\favicon_io\favicon.ico
-
+    
 # Page views settings
 pageviews:
   provider: # now only supports 'goatcounter'
