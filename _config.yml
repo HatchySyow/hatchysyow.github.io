@@ -27,10 +27,10 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your GitHub username
+  username: hatchysyow # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+LinkedIn: 
+  username: shoma8uma
 
 social:
   # Change to your full name.
@@ -39,11 +39,13 @@ social:
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://hatchysyow.github.io # change to your homepage
+    - https://github.com/hatchysyow # change to your GitHub homepage
+    - https://www.linkedin.com/in/shoma8uma #LinkedIn homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+    # - https://www.x.com/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -73,6 +75,9 @@ analytics:
     id: # fill in your Cloudflare Web Analytics token
   fathom:
     id: # fill in your Fathom Site ID
+
+# Favicon
+  favicon: assets/images/icon.jpg
 
 # Page views settings
 pageviews:
@@ -225,9 +230,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-# Favicon
-# サイトのファビコンのパスを指定します。
-favicon: assets/images/icon.jpg # ← ご自身のファビコンを置いたパスに変更してください
-
-# ---- ここまで追記 ----
