@@ -27,7 +27,7 @@ pin: false
 
 Firmware更新ツールについては、複数の方法があり、どの場合にどれを選べばよいかは、[フローチャート](https://www.dell.com/support/kbdoc/ja-jp/000240818/)を参考にしてください。
 
-![推奨ツール確認フローチャート](assets/images/ka06P0000009DzdQAE.png)
+![推奨ツール確認フローチャート](assets/img/ka06P0000009DzdQAE.png)
 
 [PowerEdge: ファームウェア更新ツールのご紹介](https://www.dell.com/support/kbdoc/ja-jp/000240818/)
 
