@@ -77,7 +77,7 @@ analytics:
     id: # fill in your Fathom Site ID
 
 # Favicon
-  favicon: assets/images/icon.jpg
+favicon: /assets/images/icon.jpg
 
 # Page views settings
 pageviews:
