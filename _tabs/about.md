@@ -24,7 +24,7 @@ PC製品としては、Dell TechnologiesのInspironシリーズやXPSシリー�
 ### Infrastructure & Hardware
 - **Servers:** Dell PowerEdge 
 - **Server Management:** Dell OpenManage Server Administrator, iDRAC, OpenManage Enterprise
-- **Troubleshooting & Log Analysis** TSR(Technical Support Report)
+- **Troubleshooting & Log Analysis:** TSR(Technical Support Report)
 
 ### Cloud & AI
 - **Cloud:** AWS , Microsoft Azure
