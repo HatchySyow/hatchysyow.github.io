@@ -66,7 +66,7 @@ PC製品としては、Dell TechnologiesのInspironシリーズやXPSシリー�
 * [Dell PowerEdge Foundations 2023](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams/poweredge-foundations-v2.html) (取得日: 2024/10/19)
 * [Dell Integrated System for Microsoft Azure Stack HCI Achievement](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams/dell-integrated-system-for-microsoft-azure-stack-hci.html) (取得日: 2025/2/7)
 
-### その他
+### Others
 * [ITパスポート試験](https://www.ipa.go.jp/shiken/kubun/ip.html) (取得日: 2019/8/XX)
 * [JDLA Deep Learning for GENERAL 2021 #2](https://www.jdla.org/certificate/general/) (取得日: 2021/10/29)
 * [ITIL® Foundation Certificate in IT Service Management](https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-foundation-2565) (取得日: 2025/3/25)
