@@ -22,13 +22,18 @@ PC製品としては、Dell TechnologiesのInspironシリーズやXPSシリー�
 ## Skills
 
 ### Infrastructure & Hardware
-- **Servers:** Dell PowerEdge 
-- **Server Management:** Dell OpenManage Server Administrator, iDRAC, OpenManage Enterprise
-- **Troubleshooting & Log Analysis:** TSR(Technical Support Report)
+- **Servers:** x86 Server(Dell PowerEdge), XREA(Rental Server by GMO Internet, Inc.)
+- **Server Management:** OpenManage Server Administrator, iDRAC, OpenManage Enterprise
+- **Troubleshooting & Log Analysis:** TSR(Technical Support Report), tty Logs, alertlog, Windows System Event Logs
 
 ### Cloud & AI
-- **Cloud:** AWS , Microsoft Azure
-- **AI:** Gemini, Microsoft Copilot
+- **Cloud:** Amazon Web Service, Microsoft Azure
+- **Generative AI:** Gemini, Gemini CLI, NotebookLM, Microsoft Copilot
+
+### Software
+- **Operating Systems:** Windows 10/11, Windows Server
+- **Virtualization:** VMware vSphere, Microsoft Hyper-V
+- **Web Development:** WordPress, GitHub Pages
 
 ### Languages
 - **Japanese:** Native 
