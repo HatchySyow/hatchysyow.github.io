@@ -43,12 +43,12 @@ At line:1 char:1
 1. Windowsのスタートメニューから「PowerShell」と検索します。
 2. 「Windows PowerShell」を右クリックし、「管理者として実行」を選択します。
 3. PowerShellのウィンドウが開いたら、`Set-ExecutionPolicy RemoteSigned`を入力してEnterキーを押します。
-4. 実行ポリシーの変更を確認するメッセージが表示され、「はい」または「いいえ」の選択肢が出ます。A（はい、すべて）または Y（はい）を入力してEnterキーを押します。
-5. コマンドが正常に完了したら、PowerShellのウィンドウを閉じます。
-
 ```bash
 Set-ExecutionPolicy RemoteSigned
 ```
+4. 実行ポリシーの変更を確認するメッセージが表示され、「はい」または「いいえ」の選択肢が出ます。A（はい、すべて）または Y（はい）を入力してEnterキーを押します。
+5. コマンドが正常に完了したら、PowerShellのウィンドウを閉じます。
+
 実行結果は以下。
 ```bash
 Windows PowerShell
