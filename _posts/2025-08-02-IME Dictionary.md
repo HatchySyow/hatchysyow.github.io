@@ -14,12 +14,18 @@ File>Openなどで、別の場所のファイルを開くことはできるが�
 
 ![alt text](/assets/img/IME辞書.png)
 
-しかし、下記のコマンドを実行することで、デフォルトのユーザー辞書の場所を変更することが可能。
-例えば、OneDrive上に辞書を置いて、そのpathを指定することで、複数のWindows OSで同じ辞書を使用、編集することが可能になる。
-マジで便利機能かもしれない。
+しかし、Windowsのコマンドプロンプトで下記のコマンドを実行することで、デフォルトのユーザー辞書の場所を変更することが可能。
+例えば、OneDrive上に辞書を置いて、そのpathを指定することで、複数のWindows OSで同じ辞書を使用、編集することが可能になる。マジで便利機能かもしれない。\
+実行結果は以下。
 
 ```bash
 %SystemRoot%\System32\IME\IMEJP\imjpuexc.exe setcustomdictpath "新しいユーザー辞書の場所\imjp15cu.dic"
+
+C:\Windows\System32>%SystemRoot%\System32\IME\IMEJP\imjpuexc.exe setcustomdictpath "新しいユーザー辞書の場所\imjp15cu.dic"
+Microsoft IME Property Command Line Tool (10.0.26100.4061)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Succeeded: SETCUSTOMDICTPATH: 新しいユーザー辞書の場所\imjp15cu.dic is now used as custom dictionary file.
 ```
 
 ただし、辞書の名前を「imjp15cu.dic」にしているので、ここと、新しい辞書の場所については、ご自身で設定を確認の上、値を入れてほしい。
