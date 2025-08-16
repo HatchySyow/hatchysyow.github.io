@@ -49,7 +49,7 @@ At line:1 char:1
 ```bash
 Set-ExecutionPolicy RemoteSigned
 ```
-
+実行結果は以下。
 ```bash
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
