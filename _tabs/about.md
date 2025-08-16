@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About
+# Profile
 
 私は、ITエンジニアで、主にx86 Serverのサポート業務に従事しています。\
 新卒で某外資系企業に入社し、そこで約１年半ほど、コンシューマー(個人消費者)向けのPCのサポート業務を行っていました。\
@@ -13,7 +13,7 @@ order: 4
 具体的な製品としては、現在はDell TechnologiesのPowerEdgeシリーズのサポートを行っています。
 PC製品としては、Dell TechnologiesのInspironシリーズやXPSシリーズ、Alienwareシリーズなどのサポートを行っていました。
 
-## About Me
+## About
 
 大学では情報学とコンピュータサイエンスを専攻していました。\
 現在は、Dell Technologiesでテクニカルサポートエンジニアとして、x86サーバー製品（Dell PowerEdge）を担当しています。
@@ -23,16 +23,16 @@ PC製品としては、Dell TechnologiesのInspironシリーズやXPSシリー�
 
 ### Infrastructure & Hardware
 - **Servers:** x86 Server(Dell PowerEdge), XREA(Rental Server by GMO Internet, Inc.)
-- **Server Management:** OpenManage Server Administrator, iDRAC, OpenManage Enterprise
-- **Troubleshooting & Log Analysis:** TSR(Technical Support Report), tty Logs, alertlog, Windows System Event Logs
+- **Server Management:** OpenManage Server Administrator, iDRAC
+- **Troubleshooting & Log Analysis:** TSR(Technical Support Report), tty Logs, alertlog, Lifecycle Cotroller Log(LCC Logs), Windows System Event Logs
 
 ### Cloud & AI
 - **Cloud:** Amazon Web Service, Microsoft Azure
 - **Generative AI:** Gemini, Gemini CLI, NotebookLM, Microsoft Copilot
 
 ### Software
-- **Operating Systems:** Windows 10/11, Windows Server
-- **Virtualization:** VMware vSphere, Microsoft Hyper-V
+- **Operating Systems:** Windows 10/11, Windows Server 2016/2019/2022/2025
+- **Virtualization:** VMware vSphere, Hyper-V, Nutanix AHV
 - **Web Development:** WordPress, GitHub Pages
 
 ### Languages
