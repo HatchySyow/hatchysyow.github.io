@@ -36,7 +36,7 @@ C:¥Recovery¥OEMは、Windowsの回復環境に関連するファイルが格�
 
 [PC のリカバリーへの拡張スクリプトの追加 - Microsoft Learn](https://learn.microsoft.com/ja-jp/windows-hardware/manufacture/desktop/add-a-script-to-push-button-reset-features?view=windows-11)
 
-## del install *.* とは何をやっているのか
+## `del install *.*` とは何をやっているのか
 上記のコマンドでは、`C:¥Recovery¥OEM¥`の中で、del install*.*を実行しています。
 この構文では、OEMフォルダの中の、installと名の付くファイルを拡張子関係なくすべて削除しています。\
 [del - Microsoft Learn](https://learn.microsoft.com/ja-jp/windows-server/administration/windows-commands/del)
