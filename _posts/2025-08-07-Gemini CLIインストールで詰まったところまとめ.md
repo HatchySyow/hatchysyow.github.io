@@ -47,6 +47,10 @@ At line:1 char:1
 5. コマンドが正常に完了したら、PowerShellのウィンドウを閉じます。
 
 ```bash
+Set-ExecutionPolicy RemoteSigned
+```
+
+```bash
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 
