@@ -18,7 +18,7 @@ tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lo
 
 [Dell EMC PowerEdge RAID Controller 9ユーザーズ ガイド H330、H730、およびH830](https://dl.dell.com/content/manual53993545-dell-emc-poweredge-raid-controller-9%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%BA-%E3%82%AC%E3%82%A4%E3%83%89-h330-h730-%E3%81%8A%E3%82%88%E3%81%B3h830.pdf?language=ja-jp)
 
-<details><summary>【原文】P31 メンバーの交換機能と回復可能ホットスペアの使用</summary>
+<details><summary>【原文】P31 メンバーの交換機能と回復可能ホットスペアの使用</summary><div>
 
 メンバー交換機能では、あらかじめ認定されているホット スペアを使用可能なホット スペアに戻すことができます。\
 
@@ -34,7 +34,7 @@ tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lo
 
 メモ: メンバー交換操作は、通常、ディスクのパフォーマンスに一時的な影響を与えます。操作が完了すると、パフォーマンスは通常状態に戻ります。
 
-</details>
+</div></details>
 
 ## まとめ
 - 予兆障害など、仮想ディスクが健全な状態、ホットスペアがまだ生きている状態でディスクを交換したいときに使うのが、「ホットスペアメンバー交換(Copy-to-Spare)」。
