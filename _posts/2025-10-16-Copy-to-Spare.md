@@ -16,6 +16,7 @@ tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lo
 
 ## メンバー交換
 
+### PERC9
 PERC9のマニュアルを見ると、障害ディスクが発生してホットスペアでRebuildされた状態から、障害ディスクを交換して戻すことをメンバー交換と呼んでいるように見受けられます。原文は後述しますが、Failになったディスクが検知された際に、ホットスペアのディスクが自動的にRebuild開始して、仮想ディスクを最適な状態に戻してくれて、Failのディスクが交換されたら、新しいディスクに対して、ホットスペアのディスクからデータを戻しますよ、と書かれています。
 
 [Dell EMC PowerEdge RAID Controller 9ユーザーズ ガイド H330、H730、およびH830](https://dl.dell.com/content/manual53993545-dell-emc-poweredge-raid-controller-9%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%BA-%E3%82%AC%E3%82%A4%E3%83%89-h330-h730-%E3%81%8A%E3%82%88%E3%81%B3h830.pdf?language=ja-jp)
@@ -33,6 +34,7 @@ PERC9のマニュアルを見ると、障害ディスクが発生してホット
 
 </details>
 
+### PERC13
 PERC13のマニュアルを見ると、同様の機能を。「コピーバックとリプレース」と呼称する、という記述もありました。
 
 >メモ: メンバーの交換は、一部の管理アプリケーションまたはイベントにおいては「コピーバックとリプレース」とも呼ばれます。
@@ -43,5 +45,5 @@ PERC13のマニュアルを見ると、同様の機能を。「コピーバッ�
 - 予兆障害など、仮想ディスクが健全な状態、ホットスペアがまだ生きている状態でディスクを交換したいときに使うのが、「ホットスペアメンバー交換(Copy-to-Spare)」。
 - ディスクがFailして、ホットスペア指定のディスクでRebuildが完了したのちに、Failしたディスクを交換して、データを戻すのが「メンバー交換」。
 
-余談ですが、そもそもPERCというのは、「PowerEdge RAID Controller」の頭文字をとってそのように呼称されています。\
+余談ですが、「PERC」は、「PowerEdge RAID Controller」の頭文字をとってそのように呼称されています。かっこいい。\
 [PowerEdge：Dell製システムのPowerEdge RAIDコントローラー タイプのリスト | Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000131648/)
