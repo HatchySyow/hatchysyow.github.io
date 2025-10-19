@@ -1,8 +1,7 @@
 ---
 title: 【PowerEdge】PERCの「メンバー交換」
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
-categories: [TOP_CATEGORY, SUB_CATEGORY]
-tags: [TAG]     # TAG names should always be lowercase
+date: 2025-10-19 00:00:00 +09:00
+tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lowercase
 ---
 
 ## 「ホットスペアメンバー交換(Copy to Spare)」と、「メンバー交換」って何が違うん。ということを詳しく見てみる。
