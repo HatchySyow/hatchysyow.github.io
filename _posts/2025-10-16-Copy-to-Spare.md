@@ -18,7 +18,7 @@ tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lo
 
 [Dell EMC PowerEdge RAID Controller 9ユーザーズ ガイド H330、H730、およびH830](https://dl.dell.com/content/manual53993545-dell-emc-poweredge-raid-controller-9%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%BA-%E3%82%AC%E3%82%A4%E3%83%89-h330-h730-%E3%81%8A%E3%82%88%E3%81%B3h830.pdf?language=ja-jp)
 
-<details><summary>【原文】P31 メンバーの交換機能と回復可能ホットスペアの使用</summary><div>
+<details><summary>【原文】P31 メンバーの交換機能と回復可能ホットスペアの使用</summary>
 
 メンバー交換機能では、あらかじめ認定されているホット スペアを使用可能なホット スペアに戻すことができます。  
 仮想ディスク内でディスク障害が発生すると、割り当てられているホット スペア（専用またはグローバル）が認定され、仮想ディスクが最適な状態になるまで再構築を開始します。障害ディスクが（同じスロットで）交換された、ホット スペアへの再構築が完了した後、コントローラーは認定ホット スペアのデータを新たに挿入されたディスクへコピーする処理を自動的に開始します。  
@@ -29,7 +29,7 @@ tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lo
 
 メモ: メンバー交換操作は、通常、ディスクのパフォーマンスに一時的な影響を与えます。操作が完了すると、パフォーマンスは通常状態に戻ります。
 
-</div></details>
+</details>
 
 余談ですが、PERCというのは、「PowerEdge RAID Controller」の頭文字をとって、そう呼称されています。\
 [PowerEdge：Dell製システムのPowerEdge RAIDコントローラー タイプのリスト | Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000131648/)
