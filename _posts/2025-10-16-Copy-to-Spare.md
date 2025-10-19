@@ -4,6 +4,8 @@ date: 2025-10-19 00:00:00 +09:00
 tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lowercase
 ---
 
+Dell Technologiesの技術文書を見ていると、「ホットスペアメンバー交換(Copy to Spare)」という概念があったので、メモを残します。
+
 ## ホットスペアメンバー交換(Copy to Spare)
 
 前提として、ベンダーでは予測されるドライブ障害(Predictive Failure)に対して、Firmwareや各種ソフトウェアの更新を推奨しています。
@@ -12,16 +14,18 @@ tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lo
 
 「ホットスペアメンバー交換(Copy to Spare)」というのは、予兆障害が確認されたディスクを交換する際に使用されるもので、障害ディスクからホットスペアのディスクに対してデータをコピーして、予兆障害のディスクを交換し、その後データをコピーしたホットスペアのディスクから交換後のディスクに対してデータを再コピーするものです。
 
-Copy to Spareを行うためには、以下のような条件があります。
+Copy to Spareを行うためには、いくつかの条件があります。技術文書に記載がありますが、下記に列挙してみます。筆者の解釈も追加しています。
 - PERC6*以降のRAIDコントローラを搭載したPowerEdge、PowerVault製品である。\
 ※PERC6i、PERC6Eはファームウェアv6.1.1-0047以降が搭載されていること。
 - RAID5、RAID6、RAID50、RAID60で構成されたVirtual Diskが存在する。\
-※ここについては、障害ディスクが発生した時点で、Virtual DiskがDegradedの状態になるため、健全なVirtual Diskと読み替えても良いかもしれません。
+※障害(Fail)ディスクが発生した時点で、Virtual DiskがDegradedの状態になるため、「健全なVirtual Disk」と読み替えても良いかもしれません。
 - 障害待機ディスク(ホットスペア指定のディスク)が存在する。
 - OpenManage Server Administrator(以下OMSA)がインストールされている、またはiDRAC racadmコマンドが使用できる環境下である。\
 ※Copy to Spareは予兆障害の時点で交換を実施するため、手動で操作できる環境を準備する必要があります。
 
 [PowerEdge: PERC上のVirtual Diskにおけるホットスペアメンバー交換(Copy to Spare)手順 - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000139631/)
+
+つまり、予兆障害の時点で、手動でホットスペアのディスクにデータを移して、障害ディスクを交換して、戻すことを、「Copy to Spare」と呼んでいるようです。
 
 ## メンバー交換
 
@@ -49,6 +53,8 @@ PERC13のマニュアルを見ると、同様の機能を、「コピーバッ�
 >メモ: メンバーの交換は、一部の管理アプリケーションまたはイベントにおいては「コピーバックとリプレース」とも呼ばれます。
 
 [Dell PERC13 および PERC12 ユーザーズ ガイド PERC H975シリーズおよびPERC H965シリーズ カード](https://dl.dell.com/content/manual41299796-dell-perc13-%E3%81%8A%E3%82%88%E3%81%B3-perc12-%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%BA-%E3%82%AC%E3%82%A4%E3%83%89-perc-h975%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%8A%E3%82%88%E3%81%B3perc-h965%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E3%82%AB%E3%83%BC%E3%83%89.pdf?language=ja-jp)
+
+特定のディスクが障害ステータス(Fail)になり、ホットスペアのディスクで再構築が完了、ディスク交換をして、ホットスペアのディスクからデータが自動で戻る動作を「メンバー交換」と呼んでいるようです。
 
 ## まとめ
 - 予兆障害など、仮想ディスクが健全な状態、ホットスペアがまだ生きている状態でディスクを交換したいときに使うのが、「ホットスペアメンバー交換(Copy-to-Spare)」。
