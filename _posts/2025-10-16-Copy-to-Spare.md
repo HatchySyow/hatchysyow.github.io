@@ -12,6 +12,15 @@ tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lo
 
 「ホットスペアメンバー交換(Copy to Spare)」というのは、予兆障害が確認されたディスクを交換する際に使用されるもので、障害ディスクからホットスペアのディスクに対してデータをコピーして、予兆障害のディスクを交換し、その後データをコピーしたホットスペアのディスクから交換後のディスクに対してデータを再コピーするものです。
 
+Copy to Spareを行うためには、以下のような条件があります。
+- PERC6*以降のRAIDコントローラを搭載したPowerEdge、PowerVault製品である。\
+※PERC6i、PERC6Eはファームウェアv6.1.1-0047以降が搭載されていること。
+- RAID5、RAID6、RAID50、RAID60で構成されたVirtual Diskが存在する。\
+※ここについては、障害ディスクが発生した時点で、Virtual DiskがDegradedの状態になるため、健全なVirtual Diskと読み替えても良いかもしれません。
+- 障害待機ディスク(ホットスペア指定のディスク)が存在する。
+- OpenManage Server Administrator(以下OMSA)がインストールされている、またはiDRAC racadmコマンドが使用できる環境下である。\
+※Copy to Spareは予兆障害の時点で交換を実施するため、手動で操作できる環境を準備する必要があります。
+
 [PowerEdge: PERC上のVirtual Diskにおけるホットスペアメンバー交換(Copy to Spare)手順 - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000139631/)
 
 ## メンバー交換
