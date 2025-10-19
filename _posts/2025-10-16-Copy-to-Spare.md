@@ -8,18 +8,15 @@ tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lo
 
 前提として、ベンダーでは予測されるドライブ障害(Predictive Failure)に対して、Firmwareや各種ソフトウェアの更新を推奨しています。
 
-■PowerEdge：予測されるドライブの故障とその解決方法 | Dell 日本\
-https://www.dell.com/support/kbdoc/ja-jp/000126418/
+[PowerEdge：予測されるドライブの故障とその解決方法 - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000126418/)
 
 「ホットスペアメンバー交換(Copy to Spare)」というのは、予兆障害が確認されたディスクを交換する際に使用されるもので、障害ディスクからホットスペアのディスクに対してデータをコピーして、予兆障害のディスクを交換し、その後データをコピーしたホットスペアのディスクから交換後のディスクに対してデータを再コピーするものです。
 
-■PowerEdge: PERC上のVirtual Diskにおけるホットスペアメンバー交換(Copy to Spare)手順 | Dell 日本\
-https://www.dell.com/support/kbdoc/ja-jp/000139631/
+[PowerEdge: PERC上のVirtual Diskにおけるホットスペアメンバー交換(Copy to Spare)手順 - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000139631/)
  
 しかし、PERC9のマニュアルを見ると、障害ディスクが発生してホットスペアでRebuildされた状態から、障害ディスクを交換して戻すことをメンバー交換と呼んでいるように見受けられます。原文は後述しますが、Failになったディスクが検知された際に、ホットスペアのディスクが自動的にRebuild開始して、仮想ディスクを最適な状態に戻してくれて、Failのディスクが交換されたら、新しいディスクに対して、ホットスペアのディスクからデータを戻しますよ、と書かれています。
 
-■Dell EMC PowerEdge RAID Controller 9ユーザーズ ガイド H330、H730、およびH830\
-https://dl.dell.com/content/manual53993545-dell-emc-poweredge-raid-controller-9%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%BA-%E3%82%AC%E3%82%A4%E3%83%89-h330-h730-%E3%81%8A%E3%82%88%E3%81%B3h830.pdf?language=ja-jp
+[Dell EMC PowerEdge RAID Controller 9ユーザーズ ガイド H330、H730、およびH830](https://dl.dell.com/content/manual53993545-dell-emc-poweredge-raid-controller-9%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%BA-%E3%82%AC%E3%82%A4%E3%83%89-h330-h730-%E3%81%8A%E3%82%88%E3%81%B3h830.pdf?language=ja-jp)
 
 <details><summary>【原文】P31 メンバーの交換機能と回復可能ホットスペアの使用</summary>
 
