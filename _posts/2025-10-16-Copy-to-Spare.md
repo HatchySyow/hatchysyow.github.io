@@ -1,5 +1,5 @@
 ---
-title: 【PowerEdge】PERCの「メンバー交換」
+title: 【PowerEdge】メンバー交換/Copy-to-Spare
 date: 2025-10-19 00:00:00 +09:00
 tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lowercase
 ---
@@ -30,6 +30,9 @@ tags: [PowerEdge, PERC, RAID, Copy to Spare]     # TAG names should always be lo
 メモ: メンバー交換操作は、通常、ディスクのパフォーマンスに一時的な影響を与えます。操作が完了すると、パフォーマンスは通常状態に戻ります。
 
 </div></details>
+
+余談ですが、PERCというのは、「PowerEdge RAID Controller」の頭文字をとって、そう呼称されています。\
+[PowerEdge：Dell製システムのPowerEdge RAIDコントローラー タイプのリスト | Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000131648/)
 
 ## まとめ
 - 予兆障害など、仮想ディスクが健全な状態、ホットスペアがまだ生きている状態でディスクを交換したいときに使うのが、「ホットスペアメンバー交換(Copy-to-Spare)」。
