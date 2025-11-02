@@ -1,7 +1,7 @@
 ---
-title: iDRAC Service Module
+title: 【PowerEdge】iDRAC Service Module
 date: 2025-11-01 00:00:00 +0900
-tags: [TAG]     # TAG names should always be lowercase
+tags: [PowerEdge, iSM]     # TAG names should always be lowercase
 ---
 
 ## 軽量なOS上で動作するAgent。
@@ -9,8 +9,6 @@ iDRAC Service Module(iSM)は、Dell PowerEdge向けに開発された、ホス�
 PowerEdgeユーザーの皆様ならお分かりになられるかとは思いますが、例えば、PowerEdgeのログを採取する際に、いちいちホストOSが搭載されているサーバー機のiDRACに接続してそこからログを取得する…という流れは煩雑に思えます。OSが上がっているなら、そこからTSRログが取れればよいのに、という状況で活躍するのが、このツールとなります。
 
 [Dell iDRAC Service Moduleのサポート - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000178050/)
-
-![alt text](image.png)
 
 ## 機能
 iSMの説明を見ると、何が何だかよくわかりません。インストールすると、何が起こるのか見ていきましょう。
@@ -34,5 +32,8 @@ OS上からiDRACへアクセスすることができれば、おそらくほと�
 
 ## SupportAssist Log Collecter
 この記事で最も強調したい部分となります。iSMをインストールすると、いくつかのモジュールがインストールされます。
-SupportAssist Log Collecterは、実行するだけでTSRログを採取できる、非常に便利なツールです。
-ただし、第14世代以降のPowerEdgeでしか機能しないようです。手元のPowerEdge T430(第13世代PowerEdge)では、「Unable to run the command because the SupportAssist Collection feature is not supported on systems earlier than 14th generation.」というメッセージが表示され、実行できませんでした。このような場合は、おとなしくiDRAC GUI Launcherを使用しましょう。
+SupportAssist Log Collecterは、実行するだけでTSRログを採取できる、非常に便利なツールです。\
+※第14世代以降のPowerEdgeでしか機能しないようです。手元のPowerEdge T430(第13世代PowerEdge)では、「Unable to run the command because the SupportAssist Collection feature is not supported on systems earlier than 14th generation.」というメッセージが表示され、実行できませんでした。このような場合は、おとなしくiDRAC GUI Launcherを使用しましょう。
+
+## まとめ
+iDRAC Service Moduleは、PowerEdgeサーバーを使用している場合に非常に便利なツールです。特に、SupportAssist Log Collecterは、TSRログの収集を簡素化し、トラブルシューティングの効率を向上させます。iSMを活用することで、日々のPowerEdgeの運用管理がよりスムーズになることでしょう。
