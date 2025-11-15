@@ -44,8 +44,6 @@ SupportAssist Log Collectorを実行するには、iSMをインストールし�
 
 すると、自動的にTSRログを採取してくれます。採取されたTSRは画像のように、デフォルトではDowonloadフォルダに格納されます。
 
-<details><summary>実行時の表示</summary>
-
 ```bash
 SupportAssist log Collection is in progress..
  
