@@ -51,7 +51,7 @@ SupportAssist log Collection is in progress..
  
 Downloading the collected log file is in progress..
  
-SupportAssist Collection logs can be found in path C:\Users\Administrator\Downloads\TSR20251115202326_58NTCT2.zip
+SupportAssist Collection logs can be found in path C:\Users\Administrator\Downloads\TSR20251115202326_xxxx.zip
 
 C:\Windows\system32>
 ```
