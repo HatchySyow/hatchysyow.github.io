@@ -55,7 +55,6 @@ SupportAssist Collection logs can be found in path C:\Users\Administrator\Downlo
 
 C:\Windows\system32>
 ```
-</details>
 
 ## まとめ
 iDRAC Service Moduleは、PowerEdgeサーバーを使用している場合に非常に便利なツールです。特に、SupportAssist Log Collecterは、TSRログの収集を簡素化し、トラブルシューティングの効率を向上させます。iSMを活用することで、日々のPowerEdgeの運用管理がよりスムーズになることでしょう。
