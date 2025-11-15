@@ -28,12 +28,21 @@ iSMをインストールしたのに、iDRAC GUI Launcherが使用できない�
 
 [iDRAC：iDRACサービス モジュールの設定とトラブルシューティング - Dell 日本](https://www.dell.com/support/kbdoc/ja-jp/000188051/)
 
-OS上からiDRACへアクセスすることができれば、おそらくほとんど困ることはないと思います。iDRACは帯域外管理向けのソリューションではありますが、ホスト自身からアクセスすることでその恩恵を大いに受けることもできます。
+OS上からiDRACへアクセスすることができれば、おそらくほとんど困ることはないと思います。iDRACは帯域外管理向けのソリューションではありますが、iSMを経由してホスト上にインストールされているOSからアクセスすることでその恩恵を大いに受けることができます。
 
 ## SupportAssist Log Collector
 iSMをインストールすると、いくつかのモジュールがインストールされます。
+
+![インストールされるモジュール](../assets/img/iSM_Installed_Module.png)
+
 その中でも、SupportAssist Log Collectorは、実行するだけでTSRログを採取できる、非常に便利なツールです。\
 ※第14世代以降のPowerEdgeでしか機能しないようです。手元のPowerEdge T430(第13世代PowerEdge)では、「Unable to run the command because the SupportAssist Collection feature is not supported on systems earlier than 14th generation.」というメッセージが表示され、実行できませんでした。このような場合は、おとなしくiDRAC GUI Launcherを使用しましょう。
+
+SupportAssist Log Collectorを実行するには、iSMをインストールした際に出てくる「Support Assist Log collector」のアイコンをダブルクリックします。
+
+![alt text](../assets/img/SupportAssist_Log_Collector.png)
+
+すると、自動的にTSRログを採取してくれます。採取されたTSRは画像のように、デフォルトではDowonloadフォルダに格納されます。
 
 ## まとめ
 iDRAC Service Moduleは、PowerEdgeサーバーを使用している場合に非常に便利なツールです。特に、SupportAssist Log Collecterは、TSRログの収集を簡素化し、トラブルシューティングの効率を向上させます。iSMを活用することで、日々のPowerEdgeの運用管理がよりスムーズになることでしょう。
