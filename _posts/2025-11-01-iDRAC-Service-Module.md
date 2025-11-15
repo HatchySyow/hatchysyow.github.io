@@ -44,5 +44,20 @@ SupportAssist Log Collectorを実行するには、iSMをインストールし�
 
 すると、自動的にTSRログを採取してくれます。採取されたTSRは画像のように、デフォルトではDowonloadフォルダに格納されます。
 
+<details><summary>実行時の表示</summary>
+
+```bash
+SupportAssist log Collection is in progress..
+ 
+[||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||]100%
+ 
+Downloading the collected log file is in progress..
+ 
+SupportAssist Collection logs can be found in path C:\Users\Administrator\Downloads\TSR20251115202326_58NTCT2.zip
+
+C:\Windows\system32>
+```
+</details>
+
 ## まとめ
 iDRAC Service Moduleは、PowerEdgeサーバーを使用している場合に非常に便利なツールです。特に、SupportAssist Log Collecterは、TSRログの収集を簡素化し、トラブルシューティングの効率を向上させます。iSMを活用することで、日々のPowerEdgeの運用管理がよりスムーズになることでしょう。
