@@ -46,25 +46,28 @@ PC製品としては、Dell TechnologiesのInspironシリーズやXPSシリー�
 * [LinkedIn](https://www.linkedin.com/in/shoma8uma)
 
 ### Microsoft
-* [Microsoft Certified: Azure Fundamentals](https://learn.microsoft.com/ja-jp/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification) (取得日: 2024/3/16)
-* [Microsoft Certified: Azure AI Fundamentals](https://learn.microsoft.com/ja-jp/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification) (取得日: 2024/4/2)
+* [Microsoft Certified: Azure Fundamentals](https://learn.microsoft.com/api/credentials/share/ja-jp/hatchysyow/B74517F5C1CDEFC5?sharingId=AE5348E2502AC4D7) (取得日: 2024/3/16)
+* [Microsoft Certified: Azure AI Fundamentals](https://learn.microsoft.com/api/credentials/share/ja-jp/hatchysyow/65909C79D762547?sharingId=AE5348E2502AC4D7) (取得日: 2024/4/2)
 
 ### Amazon Web Service (AWS)
-* [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) (取得日: 2024/4/23)
-* [AWS Certified AI Practitioner](https://aws.amazon.com/certification/certified-ai-practitioner/) (取得日: 2024/11/22)
+* [AWS Certified Cloud Practitioner](https://www.credly.com/badges/d14b253b-3891-4c3b-9474-480242f8a1e2) (取得日: 2024/4/23)
+* [AWS Certified AI Practitioner](https://www.credly.com/badges/25c926ef-50c3-437b-9ffa-1f5d1da66d05) (取得日: 2024/11/22)
 
 ### CompTIA
-* [CompTIA A+ ce Certification](https://www.comptia.org/certifications/a) (取得日: 2024/3/20)
-* [CompTIA Network+](https://www.comptia.org/certifications/network) (取得日: 2024/8/9)
-* [CompTIA IT Operations Specialist](https://development-comptiawebsite.azurewebsites.net/certifications/which-certification/stackable-certifications) (取得日: 2024/8/9)
+* [CompTIA A+ ce Certification](https://www.credly.com/badges/c95413ab-b1ff-4d23-9ca9-66b03f6fb4a4) (取得日: 2024/3/20)
+* [CompTIA Network+ ce Certification](https://www.credly.com/badges/5f3f9caa-ffee-4ed8-bea0-827fbc0e65d0) (取得日: 2024/8/9)
+* [CompTIA IT Operations Specialist – CIOS Stackable Certification](https://www.credly.com/badges/e0bb2ba9-7e9c-446f-b96a-20b83e99f722) (取得日: 2024/8/9)
+* [CompTIA Server+ Certification](https://www.credly.com/badges/00053bcd-dc48-4709-bd3b-4fc2fb48ed91) (取得日: 2025/9/18)
+* [CompTIA Network Infrastructure Professional – CNIP Stackable Certification](https://www.credly.com/badges/33e6de61-e04d-43c0-8d88-563748d83af4) (取得日: 2025/9/18)
+* [CompTIA Project+ Certification](https://www.credly.com/badges/b5bcaa08-6c6a-431b-b518-85ba5fec26c8) (取得日: 2025/9/28)
 
 ### Dell Technologies
-* [Dell GenAI Foundations](https://learning.dell.com/content/dell/ja-jp/home/certification-overview/available-exams/gen-ai-foundations.html) (取得日: 2024/5/3)
-* [Dell Security Foundations 2024](https://learning.dell.com/content/dell/ja-jp/home/certification-overview/available-exams/security-foundations.html) (取得日: 2024/5/8)
-* [Dell Client Systems Support and Troubleshooting Achievement](https://learning.dell.com/content/dell/ja-jp/home/certification-overview/available-exams/dell-client-systems-support-and-troubleshooting-.html) (取得日: 2024/10/1)
-* [Dell Client Systems Deployment and Implementation Achievement](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams/dell-client-systems-deployment-and-implementation-achievement.html) (取得日: 2024/10/2)
-* [Dell PowerEdge Foundations 2023](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams/poweredge-foundations-v2.html) (取得日: 2024/10/19)
-* [Dell Integrated System for Microsoft Azure Stack HCI Achievement](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams/dell-integrated-system-for-microsoft-azure-stack-hci.html) (取得日: 2025/2/7)
+* [Dell GenAI Foundations](https://www.credly.com/badges/17c3163b-2f11-429f-9f49-c5fab5e7f33b) (取得日: 2024/5/3)
+* [Dell Security Foundations 2024](https://www.credly.com/badges/4379fd0c-877a-4f69-b75a-90522b8533e6) (取得日: 2024/5/8)
+* [Dell Client Systems Support and Troubleshooting Achievement](https://www.credly.com/badges/e9d3bbfa-018f-4318-af39-e995ae313fad) (取得日: 2024/10/1)
+* [Dell Client Systems Deployment and Implementation Achievement](https://www.credly.com/badges/f0f1dd39-b0ee-4e7c-af48-9df5ef3242b9) (取得日: 2024/10/2)
+* [Dell PowerEdge Foundations 2023](https://www.credly.com/badges/e2fbf48e-3bbc-4ae8-ae14-212198ca8ace) (取得日: 2024/10/19)
+* [Dell Integrated System for Microsoft Azure Stack HCI Achievement](https://www.credly.com/badges/980278cb-663b-4b84-9867-43ca3b00a8a3) (取得日: 2025/2/7)
 
 ### Others
 * [ITパスポート試験](https://www.ipa.go.jp/shiken/kubun/ip.html) (取得日: 2019/8/XX)
