@@ -14,7 +14,7 @@ order: 4
 
 大学では情報学とコンピュータサイエンスを専攻していました。\
 現在は、テクニカルサポートエンジニアとして、x86サーバー製品、ネットワークスイッチ製品を担当しています。
-将来的には、AI分野を軸に、オンプレミスとクラウドを組み合わせた最適なインフラを設計できるソリューションアーキテクト/ITコンサルタントになることを目指しています。
+将来的には、AI分野を軸に、オンプレミスとクラウドを組み合わせた最適なインフラを設計できるソリューションアーキテクト/ITコンサルタント/テクニカルトレーナーになることを目指しています。
 
 ## Skills
 
@@ -28,7 +28,7 @@ order: 4
 - **Generative AI:** Gemini, Gemini CLI, NotebookLM, Microsoft Copilot
 
 ### Software
-- **Operating Systems:** Windows 10/11, Windows Server 2016/2019/2022/2025
+- **Operating Systems:** Windows 10/11, Windows Server 2016/2019/2022/2025, Fedora Linux
 - **Virtualization:** VMware vSphere, Hyper-V, Nutanix AHV
 - **Web Development:** WordPress, GitHub Pages
 
@@ -65,6 +65,7 @@ order: 4
 * [Dell Client Systems Deployment and Implementation Achievement](https://www.credly.com/badges/f0f1dd39-b0ee-4e7c-af48-9df5ef3242b9)
 * [Dell PowerEdge Foundations 2023](https://www.credly.com/badges/e2fbf48e-3bbc-4ae8-ae14-212198ca8ace)
 * [Dell Integrated System for Microsoft Azure Stack HCI Achievement](https://www.credly.com/badges/980278cb-663b-4b84-9867-43ca3b00a8a3)
+*[PowerEdge XE9680 and XE8640 Install Achievement](https://www.credly.com/badges/332ad8b9-36d7-4324-9e11-e69c7dc4081e)
 
 ### Others
 * [ITパスポート試験](https://www.ipa.go.jp/shiken/kubun/ip.html)
